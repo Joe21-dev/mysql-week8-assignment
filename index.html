@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Portal</title>
+    <style>
+        body { font-family: Arial; margin: 2rem; }
+        input, button { margin: 0.5rem; padding: 0.5rem; }
+    </style>
+</head>
+<body>
+    <h2>Add Student</h2>
+    <form action="http://127.0.0.1:8000/students" method="post">
+        <input name="name" placeholder="Name" />
+        <input name="email" placeholder="Email" />
+        <input name="age" type="number" placeholder="Age" />
+        <button type="submit">Add</button>
+    </form>
+</body>
+</html>
